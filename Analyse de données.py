@@ -1,6 +1,6 @@
 import os
 os.getcwd()
-os.chdir("C:\\Users\\mehdi\\Desktop\\M1 ecotr\\Langage de programmation 1\\Web scraping\\csv files")
+os.chdir("C:\\Users\\jovan\\Desktop\\M1 ecotr\\Langage de programmation 1\\Web scraping\\csv files")
 import pandas as pd
 
 
@@ -20,4 +20,4 @@ plt.title('Hierarchical Clustering Dendrogram')
 plt.xlabel('sample index')
 plt.ylabel('distance (Ward)')
 dendrogram(Z, labels=brands.index, leaf_rotation=90)
-plt.savefig('C:\\Users\\mehdi\\Desktop\\M1 ecotr\\Langage de programmation 1\\Web scraping\\csv files\\Dendrogram.eps', format='eps')
+plt.savefig('C:\\Users\\jovan\\Desktop\\M1 ecotr\\Langage de programmation 1\\Web scraping\\csv files\\Dendrogram.eps', format='eps')
