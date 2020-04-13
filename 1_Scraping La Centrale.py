@@ -59,6 +59,6 @@ cars_df = pd.DataFrame({'Modeles':modeles,'Prix':list(map(filtrer_to_float,prix)
 cars_df[['Marques','Modeles']] = cars_df["Modeles"].str.split(" ", n = 1, expand = True) 
 cars_df = cars_df[['Marques','Modeles','Prix','Liens']]
 # Exporter la Df to csv
-cars_df.to_csv(r'C:\Users\mehdi\Desktop\M1 ecotr\Langage de programmation 1\Web scraping\csv files\LaCentrale.csv',index = None, header=True,sep=";")
+cars_df.to_csv(r'C:\Users\jovan\Desktop\M1 ecotr\Langage de programmation 1\Web scraping\csv files\LaCentrale.csv',index = None, header=True,sep=";")
 
 
