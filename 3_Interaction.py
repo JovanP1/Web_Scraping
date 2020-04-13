@@ -1,5 +1,6 @@
 # Le but de cette partie est de créer une interaction avec le client qui profitera de notre base de données
-# L'interaction consiste à demander au client d'insérer des marques et un budget, ensuite le code cherchera les voitures de ces marques spécifiées disponibles
+# L'interaction consiste à demander au client d'insérer des marques et un budget, ensuite le code cherchera les voitures de ces marques 
+#spécifiées disponibles.
 # dans notre base de donnée à un prix inférieur à son budget (avec les liens directs vers le site pour les acheter).
 # le code spécifiera aussi le nombre d'autres voitures de la même marques choisie par le client mais à un prix supérieur à son budget.
 
