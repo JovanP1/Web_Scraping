@@ -6,7 +6,7 @@
 # Importer la librairies os qui permet d'importer de montrer le chemin des fichiers qu'on va importer par la suite
 import os
 os.getcwd()
-os.chdir("C:\\Users\\mehdi\\Desktop\\M1 ecotr\\Langage de programmation 1\\Web scraping\\csv files")
+os.chdir("C:\\Users\\jovan\\Desktop\\M1 ecotr\\Langage de programmation 1\\Web scraping\\csv files")
 import pandas as pd
 
 # Importer les données 
